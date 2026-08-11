@@ -58,8 +58,8 @@ int main() {
     ListNode *res = solution.mergeTwoLists(l1, l2);
     ListNode::print(res);
     
-    ListNode::freeList(l1);
-    ListNode::freeList(l2);
+    // res 与 l1、l2 共享节点，只需释放一次
+    ListNode::freeList(res);
 
 }
 

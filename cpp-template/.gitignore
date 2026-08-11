@@ -38,6 +38,9 @@ build/
 cmake-build-debug
 build
 
+### xmake ###
+.xmake
+
 ### LeetCode Plugin ###
 *.md
 *.json
